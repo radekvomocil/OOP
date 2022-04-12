@@ -1,0 +1,7 @@
+C:\OOP\Cv08\Cviceni7\bin\Debug\Cviceni7.exe.config
+C:\OOP\Cv08\Cviceni7\bin\Debug\Cviceni7.exe
+C:\OOP\Cv08\Cviceni7\bin\Debug\Cviceni7.pdb
+C:\OOP\Cv08\Cviceni7\obj\Debug\Cviceni7.csproj.AssemblyReference.cache
+C:\OOP\Cv08\Cviceni7\obj\Debug\Cviceni7.csproj.CoreCompileInputs.cache
+C:\OOP\Cv08\Cviceni7\obj\Debug\Cviceni7.exe
+C:\OOP\Cv08\Cviceni7\obj\Debug\Cviceni7.pdb

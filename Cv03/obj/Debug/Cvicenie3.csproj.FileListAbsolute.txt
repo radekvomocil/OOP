@@ -1,0 +1,7 @@
+C:\OOP\Cv03\obj\Debug\Cvicenie3.csproj.AssemblyReference.cache
+C:\OOP\Cv03\obj\Debug\Cvicenie3.csproj.CoreCompileInputs.cache
+C:\OOP\Cv03\bin\Debug\Cvicenie3.exe.config
+C:\OOP\Cv03\bin\Debug\Cvicenie3.exe
+C:\OOP\Cv03\bin\Debug\Cvicenie3.pdb
+C:\OOP\Cv03\obj\Debug\Cvicenie3.exe
+C:\OOP\Cv03\obj\Debug\Cvicenie3.pdb

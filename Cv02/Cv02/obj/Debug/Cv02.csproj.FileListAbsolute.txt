@@ -1,0 +1,2 @@
+C:\OOP\Cv02\Cv02\obj\Debug\Cv02.csproj.AssemblyReference.cache
+C:\OOP\Cv02\Cv02\obj\Debug\Cv02.csproj.CoreCompileInputs.cache
