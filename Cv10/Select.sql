@@ -5,13 +5,13 @@ SELECT FirstName,Surname,SignedSubjects.Shortage
 SELECT Surname, Count(SurName) as StundentsCount 
 	FROM Students 
 	GROUP BY SurName 
-	ORDER BY SurName DESC;
+	ORDER BY COUNT (SurName) DESC;
 
 SELECT Shortage, COUNT(Shortage) as NumberOfSigns 
 	FROM SignedSubjects
 	GROUP BY Shortage 
 	HAVING COUNT(Shortage) < 3 AND Shortage IS NOT NULL 
-	ORDER BY Shortage DESC;
+	ORDER BY NumberOfSigns DESC;
 
 SELECT SignedSubjects.Shortage, COUNT(SignedSubjects.Shortage) as NumOfStudents, 
 	MAX(Ratings.Rating) as MaxValue, MIN(Ratings.Rating) as MinValue, AVG(Ratings.Rating) as AvgValue 
