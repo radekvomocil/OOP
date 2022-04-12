@@ -28,25 +28,24 @@ CREATE TABLE Ratings (
 INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-OOP', 'Object oriented programming');
 INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-PC2T', 'PC and programming 2');
 INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-MA3', 'Math 3');
-INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-EL1', 'Electrotechnics 1');
+INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-MVA', 'Materials');
 INSERT INTO Subjects (Shortage, SubName) VALUES ('BPC-EL2', 'Electrotechnics 2');
 
 INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Jan', 'Novotný', '1998-07-25', 1);
-INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Karel', 'Brzobohatý', '1995-03-29', 6);
-INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Petr', 'Pan', '2008-09-05', 2);
-INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Jan', 'Nevim', '1995-03-10', 3);
-INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Jana', 'Obloukova', '1997-11-12', 4);
-INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Emil', 'Šťastný', '1990-01-28', 5);
+INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Karel', 'Brzobohatý', '1995-03-29', 2);
+INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Petr', 'Novotný', '2008-09-05', 3);
+INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Jan', 'Nevim', '1995-03-10', 4);
+INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Jana', 'Obloukova', '1997-11-12', 5);
+INSERT INTO Students (FirstName, SurName, DateOfBirth, ID) VALUES ('Emil', 'Brzobohatý', '1990-01-28', 6);
 
 INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (100, 1, 'BPC-OOP');
-INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (101, 1, 'BPC-EL1');
+INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (101, 1, 'BPC-MVA');
 INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (102, 2, 'BPC-PC2T');
 INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (103, 3, 'BPC-OOP');
 INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (104, 3, 'BPC-EL2');
 INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (105, 3, 'BPC-PC2T');
-INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (106, 4, 'BPC-MA3');
-INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (107, 4, 'BPC-OOP');
-INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (108, 5, NULL);
+INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (106, 4, 'BPC-MVA');
+INSERT INTO SignedSubjects(PersonSub, ID, Shortage) VALUES (107, 5, 'BPC-MA3');
 
 INSERT INTO Ratings(PersonSub, DateofRate, Rating) VALUES (100, '2021-02-25', 2.5);
 INSERT INTO Ratings(PersonSub, DateofRate, Rating) VALUES (100, '2021-02-27', 1);
